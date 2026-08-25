@@ -11,7 +11,7 @@ class classe(Node):
     def __init__(self):
         super().__init__("nó")
         # Publisher
-     
+        self.publisher_ = self.create_publisher(Bool, "topic", 10)
         # Subscribe
        
         # Variáveis

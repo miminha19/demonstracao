@@ -4,7 +4,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import Bool
 
-from std_msgs.msg import Int32
+
 
 class classe(Node):
 

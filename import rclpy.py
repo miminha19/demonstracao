@@ -13,7 +13,7 @@ class classe(Node):
         # Publisher
         self.publisher_ = self.create_publisher(Bool, "topic", 10)
         # Subscribe
-       
+        self.subscription = self.create_subscription(Int32, "topic", self.callback, 10)
         # Variáveis
       
     def callback(self, msg):
